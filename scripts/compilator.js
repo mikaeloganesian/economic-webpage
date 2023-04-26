@@ -5,5 +5,5 @@ setInterval(function () {
 		obj[j] = obj[j] - 0;
 	}
 	var output = document.getElementById("compilator-output");
-	output.value = obj[0] * obj[1] + 24 - obj[0];
+	output.value = obj[0] + obj[1] + 24 - (obj[0]*0.3);
 }, 500);
