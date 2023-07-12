@@ -69,6 +69,8 @@ a{
     font-size: 48px;
     line-height: 78px;
     text-align: center;
+    opacity: 0;
+    transform: translate(-200px, 0);
 }
 
 .spetial-size{
@@ -85,6 +87,8 @@ a{
     border: 2px solid #EF5D5D;
     border-radius: 4px;
     transition: 0.3s;
+    transform: translate(-100px, 0);
+    opacity: 0;
 }
 
 .botton:hover{
